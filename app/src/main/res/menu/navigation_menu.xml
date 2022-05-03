@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_menu_my_order"
+            android:icon="@drawable/hamburger"
+            android:title="My Orders" />
+        <item
+            android:id="@+id/nav_menu_my_profile"
+            android:icon="@drawable/hamburger"
+            android:title="My Profile" />
+        <item
+            android:id="@+id/nav_menu_delivery_address"
+            android:icon="@drawable/map"
+            android:title="Delivery Address" />
+        <item
+            android:id="@+id/nav_menu_payment_methods"
+            android:icon="@drawable/shopping"
+            android:title="Payment Methods" />
+        <item
+            android:id="@+id/nav_menu_contact_us"
+            android:icon="@drawable/contact"
+            android:title="Contact Us" />
+        <item
+            android:id="@+id/nav_menu_settings"
+            android:icon="@drawable/settings"
+            android:title="Settings" />
+        <item
+            android:id="@+id/nav_menu_help"
+            android:icon="@drawable/help"
+            android:title="Helps &amp; FAQs" />
+
+    </group>
+
+</menu>

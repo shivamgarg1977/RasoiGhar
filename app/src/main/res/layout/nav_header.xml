@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:padding="20dp">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/nav_header_cardView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="2dp"
+        app:cardCornerRadius="50dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/man"/>
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/nav_header_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nav_header_cardView"
+        android:layout_alignParentStart="true"
+        android:text="Shivam Garg"
+        android:textColor="@color/black"
+        android:textSize="29dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nav_header_name"
+        android:layout_alignParentStart="true"
+        android:text="shivamgarg1977@gmail.com"
+        android:textSize="15dp" />
+</RelativeLayout>
